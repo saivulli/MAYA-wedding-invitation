@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#7A1E1E" />
+  <title>Maneesh Weds Priyanka | Wedding Invitation</title>
+  <meta name="description" content="A premium digital wedding invitation for Maneesh & Priyanka." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#hero">Skip to invitation</a>
+
+  <!-- OPEN INVITATION SCREEN -->
+  <div id="intro" class="intro" role="dialog" aria-modal="true" aria-label="Open invitation">
+    <div class="intro-bg" aria-hidden="true"></div>
+    <div class="intro-card" role="document">
+      <div class="intro-ornament" aria-hidden="true"></div>
+      <div class="intro-border" aria-hidden="true"></div>
+
+      <div class="intro-content">
+        <p class="intro-kicker">Wedding Invitation</p>
+        <h1 class="intro-title">Priyanka <span class="amp">&amp;</span> Maneesh</h1>
+        <p class="intro-subtitle"> GETTING MARRIED </p>
+
+        <button id="openInvitationBtn" class="btn btn-gold" type="button">
+          Open Invitation
+        </button>
+        <p class="intro-hint">Scroll storytelling begins after opening</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main id="site" class="site" aria-hidden="true">
+    <!-- SECTION 1 – HERO -->
+    <section id="hero" class="story-section hero">
+      <canvas class="particles" data-particles="hero" aria-hidden="true"></canvas>
+
+      <div class="lantern lantern-left" aria-hidden="true">
+        <img src="lanterns.png" alt="Traditional Lantern" fetchpriority="high" decoding="async" width="140"
+          height="auto" />
+      </div>
+      <div class="lantern lantern-right" aria-hidden="true">
+        <img src="lanterns.png" alt="Traditional Lantern" fetchpriority="high" decoding="async" width="140"
+          height="auto" />
+      </div>
+
+      <div class="section-inner">
+        <div class="hero-top">
+          <div class="ganesha" aria-hidden="true">
+            <!-- Minimal premium inline SVG (gold) -->
+            <svg viewBox="0 0 220 160" role="img" aria-label="Ganesha illustration">
+              <defs>
+                <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#F5E6C8" />
+                  <stop offset="0.55" stop-color="#D4AF37" />
+                  <stop offset="1" stop-color="#B8891F" />
+                </linearGradient>
+                <filter id="softGlow">
+                  <feGaussianBlur stdDeviation="2.2" result="blur" />
+                  <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 .65 0" result="glow" />
+                  <feMerge>
+                    <feMergeNode in="glow" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+              <g fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"
+                filter="url(#softGlow)">
+                <path d="M110 20c18 0 30 10 30 26 0 7-2 12-6 16" />
+                <path d="M110 20c-18 0-30 10-30 26 0 7 2 12 6 16" />
+                <path d="M92 62c-20 10-32 28-32 46 0 18 11 30 26 30 10 0 19-6 24-14" />
+                <path d="M128 62c20 10 32 28 32 46 0 18-11 30-26 30-10 0-19-6-24-14" />
+                <path d="M98 74c6 8 14 12 12 22-2 10-16 16-4 30" />
+                <path d="M122 74c-6 8-14 12-12 22 2 10 16 16 4 30" />
+                <path d="M110 58c-8 14-6 22 0 30 6 8 6 18 0 28" />
+                <path d="M110 116c-10 10-22 12-34 4" />
+                <path d="M110 116c10 10 22 12 34 4" />
+                <path d="M86 48c-12-10-22-10-30 0" />
+                <path d="M134 48c12-10 22-10 30 0" />
+                <path d="M110 44c-8-8-16-10-26-6" />
+                <path d="M110 44c8-8 16-10 26-6" />
+              </g>
+            </svg>
+          </div>
+
+          <div class="balaji" aria-hidden="true" title="Lord Balaji symbol">
+            <svg viewBox="0 0 48 48" role="img" aria-label="Balaji symbol">
+              <defs>
+                <linearGradient id="goldGrad2" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#F5E6C8" />
+                  <stop offset="1" stop-color="#D4AF37" />
+                </linearGradient>
+              </defs>
+              <path d="M24 6c7 0 12 6 12 13 0 11-8 19-12 23-4-4-12-12-12-23C12 12 17 6 24 6Z" fill="none"
+                stroke="url(#goldGrad2)" stroke-width="3.5" stroke-linejoin="round" />
+              <path d="M24 16v18" stroke="url(#goldGrad2)" stroke-width="3.5" stroke-linecap="round" />
+              <path d="M18 22h12" stroke="url(#goldGrad2)" stroke-width="3.5" stroke-linecap="round" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-center">
+          <p class="mantra">|| Shubha Vivaha ||</p>
+          <div class="corner-names">
+            <h2 class="display name-left">Priyanka</h2>
+            <h2 class="display name-right">Maneesh</h2>
+          </div>
+
+          <div class="hero-footer">
+            <div class="hero-meta">
+              <div class="pill">
+                <span class="pill-label">Venue</span>
+                <span class="pill-value">SAI SITARAMA CONVENTION</span>
+              </div>
+              <div class="pill">
+                <span class="pill-label">Date</span>
+                <span class="pill-value">12th APRIL 2026</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-gopuram">
+            <img src="gopuram.png" alt="Gopuram" class="gopuram-img" fetchpriority="high" decoding="async" />
+          </div>
+
+          <p class="lead">
+            Join us as we begin a new chapter with blessings of lord Balaji
+          </p>
+
+          <div class="scroll-cue" aria-hidden="true">
+            <span class="scroll-line"></span>
+            <span class="scroll-text">Scroll</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 – INVITATION TEXT -->
+    <section class="story-section invitation">
+      <div class="invitation-bg-container">
+        <img src="invitation_bg.png" alt="Invitation Background" class="invitation-bg-img" loading="lazy"
+          decoding="async" />
+      </div>
+      <div class="section-inner">
+        <div class="section-header">
+          <h3 class="section-title">Invitation</h3>
+          <p class="section-subtitle">From beloved family members</p>
+        </div>
+
+        <div class="invitation-text">
+          <p class="inv-en">
+            With the blessings of our elders,<br />
+            we cordially request the honor of your presence<br />
+            at the wedding celebration of #MAYA
+          </p>
+
+          <p class="inv-te">
+            మా కుటుంబ సభ్యుల ఆశీస్సులతో<br />
+            మా వివాహ వేడుకకు<br />
+            మీరు విచ్చేసి మమ్మల్ని ఆశీర్వదించవలసిందిగా<br />
+            సాదరంగా ఆహ్వానిస్తున్నాము
+          </p>
+
+          <div class="parents">
+            <div class="parents-col">
+              <p class="parents-title">Groom Parents</p>
+              <p class="parents-names">Mr.Satyanarayana &amp; Mrs.Vijaya</p>
+            </div>
+            <div class="parents-divider" aria-hidden="true"></div>
+            <div class="parents-col">
+              <p class="parents-title">Bride Parents</p>
+              <p class="parents-names">Mr.Srinivas Rao &amp; Mrs.Padma Purnima</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 – COUPLE NAMES -->
+    <section class="story-section couple">
+      <div class="couple-bg" aria-hidden="true"></div>
+      <div class="section-inner couple-inner">
+        <p class="section-eyebrow">Together with our families</p>
+        <h3 class="couple-names">
+          Lakshmi Priyanka <br><span class="heart">❤</span><br> Maneesh
+        </h3>
+        <p class="couple-line">
+          Two hearts. One sacred promise. A lifetime of togetherness.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 4 – WEDDING EVENTS -->
+    <section class="story-section events">
+      <div class="section-inner">
+        <div class="section-header">
+          <h3 class="section-title">Wedding Events</h3>
+          <p class="section-subtitle">A journey of celebrations</p>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-card">
+            <div class="event-top">
+              <h4 class="event-name">Haldi</h4>
+              <span class="event-badge">Ritual</span>
+            </div>
+            <p class="event-meta"><span>Date</span> <b>11th April 2026</b></p>
+            <p class="event-meta"><span>Time</span> <b>10:00 AM</b></p>
+            <p class="event-meta"><span>Location</span> <b>Sai SitaRama Convention</b></p>
+            <a class="btn btn-outline" href="https://maps.app.goo.gl/bypNaxhCGgR1ttTB9" target="_blank"
+              rel="noreferrer">See Route</a>
+            <div class="event-flourish" aria-hidden="true"></div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-top">
+              <h4 class="event-name">Sangeet</h4>
+              <span class="event-badge">Night</span>
+            </div>
+            <p class="event-meta"><span>Date</span> <b>11th April 2026</b></p>
+            <p class="event-meta"><span>Time</span> <b>06:30 PM</b></p>
+            <p class="event-meta"><span>Location</span> <b>Sai SitaRama Convention</b></p>
+            <a class="btn btn-outline" href="https://maps.app.goo.gl/bypNaxhCGgR1ttTB9" target="_blank"
+              rel="noreferrer">See Route</a>
+            <div class="event-flourish" aria-hidden="true"></div>
+          </article>
+
+          <article class="event-card event-card--featured">
+            <div class="event-top">
+              <h4 class="event-name">Muhurtham</h4>
+              <span class="event-badge">Wedding</span>
+            </div>
+            <p class="event-meta"><span>Date</span> <b>12th April 2026</b></p>
+            <p class="event-meta"><span>Time</span> <b>07:30 AM</b></p>
+            <p class="event-meta"><span>Location</span> <b>Sai SitaRama Convention</b></p>
+            <a class="btn btn-gold" href="https://maps.app.goo.gl/bypNaxhCGgR1ttTB9" target="_blank"
+              rel="noreferrer">See Route</a>
+            <div class="event-flourish" aria-hidden="true"></div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-top">
+              <h4 class="event-name">Reception</h4>
+              <span class="event-badge">Feast</span>
+            </div>
+            <p class="event-meta"><span>Date</span> <b>11th April 2026</b></p>
+            <p class="event-meta"><span>Time</span> <b>07:30 PM</b></p>
+            <p class="event-meta"><span>Location</span> <b>Sai SitaRama Convention</b></p>
+            <a class="btn btn-outline" href="https://maps.app.goo.gl/bypNaxhCGgR1ttTB9" target="_blank"
+              rel="noreferrer">See Route</a>
+            <div class="event-flourish" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5 – COUPLE PHOTO GALLERY -->
+    <section class="story-section gallery">
+      <div class="section-inner">
+        <div class="section-header">
+          <h3 class="section-title">Gallery</h3>
+          <p class="section-subtitle">A few moments we cherish</p>
+        </div>
+
+        <div class="gallery-frame" aria-label="Couple photo gallery">
+          <div class="frame-ornaments" aria-hidden="true"></div>
+          <div class="gallery-stage">
+            <img id="galleryImage" class="gallery-image" src="" alt="Couple photo" loading="eager" decoding="async" />
+            <div class="gallery-sheen" aria-hidden="true"></div>
+          </div>
+          <div class="gallery-dots" id="galleryDots" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6 – COUNTDOWN TIMER -->
+    <section class="story-section countdown">
+      <canvas class="particles" data-particles="night" aria-hidden="true"></canvas>
+      <div class="section-inner">
+        <div class="section-header section-header--center">
+          <h3 class="section-title">Countdown</h3>
+          <p class="section-subtitle">Until we say “I do”</p>
+        </div>
+
+        <div class="countdown-wrap" role="timer" aria-live="polite">
+          <div class="time-box">
+            <div class="time-value" id="cdDays">—</div>
+            <div class="time-label">Days</div>
+          </div>
+          <div class="time-box">
+            <div class="time-value" id="cdHours">—</div>
+            <div class="time-label">Hours</div>
+          </div>
+          <div class="time-box">
+            <div class="time-value" id="cdMinutes">—</div>
+            <div class="time-label">Minutes</div>
+          </div>
+          <div class="time-box">
+            <div class="time-value" id="cdSeconds">—</div>
+            <div class="time-label">Seconds</div>
+          </div>
+        </div>
+
+        <p class="countdown-note" id="countdownNote"></p>
+      </div>
+    </section>
+
+    <!-- SECTION 7 – FOOTER -->
+    <footer class="story-section footer">
+      <div class="section-inner footer-inner">
+        <div class="temple" aria-hidden="true">
+          <svg viewBox="0 0 120 80" role="img" aria-label="Temple icon">
+            <path d="M14 66h92M20 66V44l40-26 40 26v22M32 66V50h56v16M44 50V40l16-10 16 10v10" fill="none"
+              stroke="#D4AF37" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M60 10l8 8-8 8-8-8 8-8Z" fill="none" stroke="#D4AF37" stroke-width="3.5" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <p class="footer-message">Thank you for being part of our special day.</p>
+        <p class="footer-small">With love, Priyanka &amp; Maneesh</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
