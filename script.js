@@ -237,7 +237,7 @@ function initCountdown() {
       minsEl.textContent = "00";
       secsEl.textContent = "00";
       if (noteEl) {
-        noteEl.textContent = "Today is the glorious day! Welcome to our wedding celebrations!";
+        noteEl.textContent = "Today is the glorious day! Welcome to our wedding celebrations! ";
         noteEl.classList.add("celebrating");
       }
       return false;
@@ -398,4 +398,5 @@ function bootstrap() {
 }
 
 window.addEventListener("DOMContentLoaded", bootstrap);
+
 
