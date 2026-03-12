@@ -154,7 +154,7 @@ function initGallery() {
     "assets/WhatsApp Image 2026-03-12 at 7.41.59 PM.jpeg",
     "assets/WhatsApp Image 2026-03-10 at 8.03.34 PM (2).jpeg",
     "assets/WhatsApp Image 2026-03-10 at 9.58.06 PM (1).jpeg",
-    "assets/WhatsApp Image 2026-03-10 at 9.58.05 PM.jpeg",
+    "assets/WhatsApp Image 2026-03-10 at 8.07.41 PM.jpeg",
     "assets/WhatsApp Image 2026-03-10 at 9.58.06 PM.jpeg",
     "assets/WhatsApp Image 2026-03-10 at 9.58.07 PM.jpeg",
   ];
@@ -398,6 +398,7 @@ function bootstrap() {
 }
 
 window.addEventListener("DOMContentLoaded", bootstrap);
+
 
 
 
